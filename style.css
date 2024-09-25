@@ -307,3 +307,19 @@ nav {
 .rating-stars{
   color: #007bff;
 }
+@media only screen and (max-width: 768px) {
+
+  .offer-item-img {
+    width: 100%;
+  }
+
+  .highlight {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .offers {
+    padding: 15px 10px;
+  }
+
+}
