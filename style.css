@@ -1,0 +1,309 @@
+body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Public Sans", sans-serif;
+}
+p, body, main, section {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  background-image: url(Assests/images/afro-woman-cleaning-window-with-rag-home.jpg);
+  background-color: rgba(95, 172, 198, 0.767);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: white;
+  height: 758px;
+}
+.custom-button {
+  padding: 10px 20px;
+  border-radius: 20rem;
+  cursor: pointer;
+}
+.color-yellow {
+  color: yellow;
+}
+.color-sky-blue {
+  color: #7cb8ec;
+}
+.color-light-blue {
+  color: #5083d2;
+}
+.header-top-info {
+  background-color: #7cb8ec;
+  padding: 15px 40px;
+}
+.header-top-info-left{
+  margin-left: 20px;
+}
+.header-top-info-item i {
+  font-size: 15px;
+  margin-right: 10px;
+}
+nav {
+  padding: 15px 40px;
+}
+.nav-logo {
+  width: 4rem;
+  height:4rem;
+}
+.nav-left-items p {
+  margin-left: 1rem;
+}
+.nav-right-items ul li{
+  margin-left: 3rem;
+}
+.nav-right-items ul li:hover {
+  color: #7cb8ec;
+  cursor: pointer;
+}
+.home-container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.home-content-headline {
+  font-size: 3em;
+  font-weight:bolder;
+  margin: 126px 0px
+}
+#intro-btn {
+  background-color: #0986f4;
+  margin-right: 10px;
+}
+.main-btn{
+  margin: -100px 2px;
+}
+.highlight {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.highlight-heading {
+  font-size: 45px;
+  font-weight: 900;
+}
+.highlight-left-content p {
+  margin-top: 20px;
+  line-height:2cap;
+}
+.highlight-right-popup {
+  padding: 1rem;
+  background-color: #7cb8ec;
+  border-radius: 10px;
+  width: fit-content;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.highlight-right-popup p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.highlight-right-popup-call-detail {
+  margin-top: 10px;
+}
+
+.highlight-right-popup-call-detail i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.offers {
+  background-color: #eff8ff;
+  padding: 60px 40px;
+}
+.offer-item {
+  background-color: white;
+  display: flex;  
+  border-radius: 10px;
+}
+.offer-item-img {
+  width: 25rem;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.offer-item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item-img-detail {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #5083d2;
+  color: white;
+  font-size: 15px;
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.item-img-detail p,i {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.img-detail-items i {
+  padding-right: 5px;
+}
+.offer-detail {
+  padding: 1rem;
+}
+.learn-more-btn {
+  background-color: #5083d2;
+  color: white;
+}
+.learn-more-btn:hover{
+  color: #007bff;
+}
+.offers {
+    background-color: #eff8ff;
+    padding: 60px 40px;
+}
+.offer-item {
+    background-color: white;
+    display: flex;  
+    border-radius: 10px;
+}
+.offer-item-img {
+    width: 25rem;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.offer-item-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item-img-detail {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #5083d2;
+    color: white;
+    font-size: 15px;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.item-img-detail p,i {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.img-detail-items i {
+    padding-right: 5px;
+}
+.offer-detail {
+    padding: 1rem;
+}
+.learn-more-btn {
+    background-color: #5083d2;
+    color: white;
+}
+  .customer-section {
+    background-color: #6FBBF3;
+    padding: 60px 0;
+    color: white;
+  }
+  .customer-card {
+    background-color: #8AC6F2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .customer-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .stars {
+    color: #FFD700;
+  }
+  h4 {
+    margin-bottom: 15px;
+  }
+  .trusted-by {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .logo-section {
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .logo-item {
+    max-width: 150px;
+    margin: 0 20px; 
+  }
+  .footer {
+  background-color: #a3d4f9;
+  padding: 40px 0;
+}
+.footer .footer-heading {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer a {
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+}
+.footer a:hover {
+  color: #007bff;
+}
+.social-icons a {
+  color: #fff;
+  background-color: #34495e;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 5px;
+  display: inline-block;
+}
+.social-icons a:hover {
+  background-color: #007bff;
+}
+.footer-bottom {
+  background-color: #d0e4fa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer-bottom p {
+  margin: 0;
+}
+.trusted-companies btn{
+  border-radius: 20px;
+}
+.navbar-custom {
+  background-color: #a3d4f9; /* Light blue background */
+  padding: 15px;
+}
+.navbar-brand img {
+  height: 50px;
+}
+.nav-link {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #73ccf0;
+}
+.rating-stars{
+  color: #007bff;
+}
