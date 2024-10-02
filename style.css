@@ -336,4 +336,18 @@ body {
     color: white;
     height: 46px;
      }
+     header {
+      background-image: url(assets/image/afro-woman-cleaning-window-with-rag-home.jpg);
+    }
+  }
+  @media only screen and ( max-width:500px)
+{
+  .highlight-right-popup {
+    height: 132px;
+    width: 203px;
+    font-size: 12px;
+  } 
+  .highlight-right-popup h6 {
+   font-size: 15px;
+  }  
   }
